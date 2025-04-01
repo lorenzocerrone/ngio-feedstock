@@ -24,6 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy
+    - filelock
     - anndata >=0.8.0
     - pydantic
     - pandas >=1.2.0
@@ -33,6 +34,10 @@ requirements:
     - dask
     - distributed
     - dask-image
+    - xarray
+    - ome-zarr-models
+    - pooch
+
 
 test:
   imports:
